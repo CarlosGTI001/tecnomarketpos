@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase / # Asegúrate de que esta línea apunte a la carpeta correcta de tu aplicación
+
+# Si no es una ruta de archivo o directorio real, redirige al index.html
+RewriteRule ^(.*)$ /index.html [L]
